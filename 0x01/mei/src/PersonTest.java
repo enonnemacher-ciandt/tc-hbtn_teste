@@ -1,5 +1,3 @@
-package task1mei.src;
-
 import org.junit.jupiter.api.*;
 
 import java.util.Calendar;

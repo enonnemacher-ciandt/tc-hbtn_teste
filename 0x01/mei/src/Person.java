@@ -1,5 +1,3 @@
-package task1mei.src;
-
 import java.time.Instant;
 import java.util.Date;
 
