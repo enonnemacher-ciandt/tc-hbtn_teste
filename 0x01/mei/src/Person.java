@@ -49,7 +49,7 @@ public class Person {
     }
 
     public boolean isMEI() {
-        long age = Date.from(Instant.now()).getYear() - this.birthDate.getYear();
+        long age = Date.from(Instant.now()).getTime() - this.birthDate.getTime();
         return calculateYearlySalary() < 130000 && age > 18 && !this.anotherCompanyOwner && !this.pensioner && !this.publicServer;
     }
 }
